@@ -60,15 +60,15 @@ j = first_numb - second_numb
 k = first_numb / second_numb
 l = first_numb * second_numb
 m = first_numb ** second_numb
-if operator == a:
+if operator == add:
     print(i)
-elif operator == b:
+elif operator == subtract:
     print(j)
-elif operator == c:
+elif operator == divide:
     print(k)
-elif operator == d:
+elif operator == multiply:
     print(l)
-elif operator == e:
+elif operator == power_of:
     print(m)
 else:
     print("Invalid operator command!")
